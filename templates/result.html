@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+      <meta charset="utf-8">
+      <title>Result</title>
+      <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+  </head>
+
+
+  <body>
+
+    {% extends "template.html" %}
+    {% block content %}
+
+    <h1> Here is the colorized image </h1>
+    <img id="result" src="/static/result.jpg?random=323527528432525.24234" alt="" width="256">
+    <br/>
+    <p> colorize your images from black & white </p>
+    <script type="text/javascript">
+jQuery("img").each(function(i){
+    jQuery(this).attr("src", jQuery(this).attr("src") + "?aaaaaa=" + Math.random());
+});
+    </script>
+    {% endblock %}
+
+  </body>
+</html>
