@@ -1,8 +1,8 @@
-torch==1.8.1
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cpu
 Flask==1.1.2
 numpy==1.20.2
 Werkzeug==1.0.1
-matplotlib
 scikit-image==0.18.1
-torchvision==0.9.1
+torchvision==0.9.1+cpu
 gunicorn==20.1.0
