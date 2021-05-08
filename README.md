@@ -1,3 +1,10 @@
+<center>
+<table><tr>
+<td><img src=wb.jpg border=0></td>
+<td><img src=color.jpg border=0></td>
+</tr></table>
+</center>
+
 # Image Colorization
 
 This is a web app that use CNN to recover colored image from black and white.
