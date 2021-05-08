@@ -6,6 +6,10 @@
    <link rel="stylesheet" href="{{ url_for('static',     filename='css/template.css') }}">
  </head>
  <body>
+
+   {% block content %}
+   {% endblock %}
+
     <header>
       <div class="container">
         <h1 class="logo">Colorization</h1>
@@ -19,8 +23,6 @@
       </div>
     </header>
 
-    {% block content %}
-    {% endblock %}
 
  </body>
 </html>
