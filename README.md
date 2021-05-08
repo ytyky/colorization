@@ -23,7 +23,7 @@ The dataset used for training and validating is from [wandb competition](https:/
 
 ## Deployment
 
-This app's templates are written in HTML, CSS and Javascript. Additionally, some bootstrap features are also added. It is deployed to heroku and available at fsdl-colorization.heroku.com
+This app's templates are written in HTML, CSS and Javascript. Additionally, some bootstrap features are also added. It is deployed to heroku and available at https://fsdl-colorization.herokuapp.com
 
 ## Reference
 
