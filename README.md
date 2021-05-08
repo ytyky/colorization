@@ -32,6 +32,10 @@ The dataset used for training and validating is from [wandb competition](https:/
 
 This app's templates are written in HTML, CSS and Javascript. Additionally, some bootstrap features are also added. It is deployed to heroku and available at https://fsdl-colorization.herokuapp.com
 
+## Limitation
+
+Since the training dataset focus on flowers and natural resources, the model performs poorly on other objects such as human/animal faces.
+
 ## Reference
 
 https://lukemelas.github.io/image-colorization.html
